@@ -6,10 +6,10 @@ const Footer = () => (
     <div className="grid grid-cols-3">
       <div></div>
       <p className="text-center text-sm text-gray-600">
-        © Kodea Solutions {new Date().getFullYear()}. All rights reserved
-        <a href="https://uavmatrix.com">
+        © SDWAN Solutions {new Date().getFullYear()}. All rights reserved
+        <a href="http://www.ipv6next.cn">
           {" "}
-          by Bernt Christian Egeland / aka @sinamics
+          by  @ipv6next
         </a>
       </p>
       {globalSiteVersion ? (
