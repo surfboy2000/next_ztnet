@@ -16,9 +16,9 @@ const Settings = () => {
         <div className="flex space-x-4">
           <div className="card card-normal w-96 bg-base-300">
             <div className="card-body">
-              <h2 className="card-title flex justify-center">Site Settings</h2>
+              <h2 className="card-title flex justify-center">平台设置</h2>
               <div className="flex items-center">
-                <p>Enable user registration?</p>
+                <p>启用用户注册？</p>
                 <input
                   type="checkbox"
                   checked={options?.enableRegistration}
