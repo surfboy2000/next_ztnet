@@ -102,11 +102,11 @@ const Sidebar = (): JSX.Element => {
               <span className="ml-3">网络</span>
             </Link>
           </li>
-          {session?.user.role === "管理" ? (
+          {session?.user.role === "ADMIN" ? (
             <>
               <li className="my-px">
                 <span className="my-4 flex px-4 text-sm font-medium uppercase text-primary ">
-                  Admin
+                  管理
                 </span>
               </li>
               <li className="my-px">
@@ -135,7 +135,7 @@ const Sidebar = (): JSX.Element => {
                       />
                     </svg>
                   </span>
-                  <span className="ml-3">成员/span>
+                  <span className="ml-3">成员</span>
                 </Link>
               </li>
               <li className="my-px">
