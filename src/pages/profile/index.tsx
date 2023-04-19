@@ -18,13 +18,13 @@ const Profile = () => {
     <div className="md:flex">
       <div className="mt-6 px-4 md:mb-0 md:w-1/2">
         <div className="overflow-hidden rounded-lg bg-base-300 px-4 shadow">
-          <h2 className="px-4 pt-5 text-lg font-medium ">Profile</h2>
+          <h2 className="px-4 pt-5 text-lg font-medium ">用户信息</h2>
           <div className="divider" />
           <div className="px-4 py-5 sm:p-6">
             <dl className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2">
               <div className="sm:col-span-1">
                 <EditableField
-                  label="Name"
+                  label="用户名"
                   isLoading={!session?.user}
                   fields={[
                     {
@@ -42,7 +42,7 @@ const Profile = () => {
               <div className="sm:col-span-1">
                 <EditableField
                   isLoading={!session?.user}
-                  label="Email"
+                  label="邮箱"
                   badge={
                     session?.user?.emailVerified
                       ? { text: "Verified", color: "success" }
@@ -64,7 +64,7 @@ const Profile = () => {
               <div className="sm:col-span-1">
                 <EditableField
                   isLoading={!session?.user}
-                  label="Password"
+                  label="密码"
                   placeholder="******"
                   fields={[
                     {
@@ -103,7 +103,7 @@ const Profile = () => {
               {/* <ChangePassword /> */}
 
               <div className="sm:col-span-1">
-                <dt className="text-sm font-medium ">Role</dt>
+                <dt className="text-sm font-medium ">角色</dt>
                 <dd className="mt-1 text-sm ">{session?.user.role}</dd>
               </div>
             </dl>
@@ -112,10 +112,10 @@ const Profile = () => {
       </div>
       <div className="px-4 md:w-1/2">
         <div className="mt-6 overflow-hidden rounded-lg bg-base-300 px-4">
-          <h2 className="px-4 pt-5 text-lg font-medium ">Activity</h2>
+          <h2 className="px-4 pt-5 text-lg font-medium ">激活</h2>
           <div className="divider" />
           <div className="px-4 py-5 sm:p-6">
-            <p>No activity to display.</p>
+            <p>没有可显示的激活项目。</p>
           </div>
         </div>
       </div>
