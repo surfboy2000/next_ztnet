@@ -34,7 +34,7 @@ const Networks: NextPageWithLayout = () => {
 
       <main className="w-full bg-base-100">
         <div className="mt-3 mb-3 flex w-full justify-center ">
-          <h5 className="w-full text-center text-2xl">Networks</h5>
+          <h5 className="w-full text-center text-2xl">网络</h5>
         </div>
         <div className="mx-auto max-w-6xl space-y-5 bg-cover bg-center bg-no-repeat py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
           <div className="relative bg-cover bg-center bg-no-repeat">
@@ -64,18 +64,15 @@ const Networks: NextPageWithLayout = () => {
                         d="M12 4.5v15m7.5-7.5h-15"
                       />
                     </svg>
-                    Add Network
+                    增加网络
                   </button>
                 </div>
                 <div className="w-full overflow-auto text-center ">
                   <p className="mb-3 text-sm">
-                    Connect team members from anywhere in the world on any
-                    device. ZeroTier creates secure networks between on-premise,
-                    cloud, desktop, and mobile devices. Zerotier It&apos;s an
-                    encrypted Peer-to-Peer technology, meaning that unlike
-                    traditional VPN solutions, communications don&apos;t need to
-                    pass through a central server or router — messages are sent
-                    directly peer to peer.
+                    通过CPE设备连接来自世界任何地方的团队成员。
+                    Next ZTnet 在本地、云、桌面和移动设备之间创建安全网络。
+                    Zerotier 它是一种加密的点对点技术，这意味着与传统的 VPN 
+                    解决方案不同，通信不需要通过中央服务器或路由器——消息直接点对点发送
                   </p>
                   <div className="text-center">
                     {userNetworks && userNetworks.length > 0 && (
