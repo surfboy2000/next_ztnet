@@ -28,24 +28,24 @@ const Controller = () => {
         <div className="grid grid-cols-1 gap-5 space-y-4 pt-10 md:space-y-0 lg:grid-cols-2 xl:grid-cols-3">
           <div className="card-normal card w-60 bg-base-300 sm:w-96">
             <div className="card-body flex-grow-0">
-              <h2 className="card-title flex justify-center">Networks</h2>
-              <p className="">Network Count: {networkCount}</p>
-              <p className="">Total Members: {totalMembers}</p>
+              <h2 className="card-title flex justify-center">网络</h2>
+              <p className="">网络数量： {networkCount}</p>
+              <p className="">成员总数： {totalMembers}</p>
             </div>
           </div>
           <div className="card-normal card w-60 bg-base-300 sm:w-96">
             <div className="card-body">
-              <h2 className="card-title flex justify-center">Controller TCP</h2>
-              <p className="">Allow Management From:</p>
+              <h2 className="card-title flex justify-center">控制器</h2>
+              <p className="">允许管理地址来自:</p>
               <ul className="list-inside list-disc">
                 {allowManagementFrom.map((address, index) => (
                   <li key={index}>{address}</li>
                 ))}
               </ul>
               <p className="">
-                Allow TCP Fallback Relay: {allowTcpFallbackRelay ? "Yes" : "No"}
+                允许TCP中继: {allowTcpFallbackRelay ? "Yes" : "No"}
               </p>
-              <p className="">Listening On:</p>
+              <p className="">监听：</p>
               <ul className="list-inside list-disc">
                 {listeningOn.map((address, index) => (
                   <li key={index}>{address}</li>
@@ -57,13 +57,13 @@ const Controller = () => {
           <div className="card-normal card w-60 bg-base-300 sm:w-96">
             <div className="card-body flex-grow-0">
               <h2 className="card-title flex justify-center">
-                Controller Stats
+                控制器统计
               </h2>
-              <p className="">Online: {online ? "Yes" : "No"}</p>
+              <p className="">在线： {online ? "Yes" : "No"}</p>
               <p className="">
-                TCP Fallback Active: {tcpFallbackActive ? "Yes" : "No"}
+                TCP回滚激活： {tcpFallbackActive ? "Yes" : "No"}
               </p>
-              <p className="">Version: {version}</p>
+              <p className="">版本： {version}</p>
             </div>
           </div>
         </div>
