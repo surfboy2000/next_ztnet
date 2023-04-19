@@ -17,33 +17,32 @@ const Dashboard: NextPageWithLayout = () => {
         <div className="mx-auto max-w-6xl space-y-10 bg-cover bg-center bg-no-repeat">
           {/* <div className="absolute inset-0 z-0">test </div> */}
           <div className="col-start-2 mx-0 flex justify-center text-5xl">
-            Welcome to {globalSiteTitle}
+            欢迎来到 {globalSiteTitle}
           </div>
           {/* grid with cards  */}
           <div className="grid grid-flow-col gap-3">
             <div className="card w-96 bg-primary shadow-xl">
               <div className="card-body">
-                <h2 className="card-title">Members</h2>
+                <h2 className="card-title">成员</h2>
                 <p>
-                  Connect team members from anywhere in the world on any device.
-                  ZeroTier creates secure networks between on-premise, cloud,
-                  desktop, and mobile devices.
+                  任何地点、任何形式，Next ZTnet为企业和个人在本地、
+                  云、桌面和移动设备 之间创建安全网络
                 </p>
               </div>
             </div>
             <div className="card w-96 bg-primary shadow-xl">
               <div className="card-body">
-                <h2 className="card-title">Everywhere</h2>
+                <h2 className="card-title">任何地点</h2>
                 <p>
-                  Connect Everywhere, Securely: ZeroTier, Your Global Network
-                  Solution
+                  安全连接无处不在: Next ZTnet全球网络
+                  解决方案
                 </p>
               </div>
             </div>
             <div className="card w-96 bg-primary shadow-xl">
               <div className="card-body">
-                <h2 className="card-title">Infinite Possibilities</h2>
-                <p>Empowering Seamless Connections, Anywhere and Everywhere</p>
+                <h2 className="card-title">无限可能</h2>
+                <p>随时随地实现无缝连接</p>
               </div>
             </div>
           </div>
