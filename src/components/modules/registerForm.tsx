@@ -57,13 +57,13 @@ const RegisterForm: React.FC = () => {
     <div className="z-10 flex justify-center  self-center">
       <div className="w-100 mx-auto rounded-2xl bg-white p-12 ">
         <div className="mb-4">
-          <h3 className="text-2xl font-semibold text-gray-800">Register </h3>
-          <p className="text-gray-500">Please sign up with your credentials</p>
+          <h3 className="text-2xl font-semibold text-gray-800">注册 </h3>
+          <p className="text-gray-500">请注册用户名和邮箱</p>
         </div>
         <form className="space-y-5" onSubmit={submitHandler}>
           <div className="space-y-2">
             <label className="text-sm font-medium tracking-wide text-gray-700">
-              Name
+              用户名
             </label>
             <input
               className=" w-full rounded-lg border border-gray-300 px-4  py-2 text-base focus:border-green-400 focus:outline-none"
@@ -71,12 +71,12 @@ const RegisterForm: React.FC = () => {
               onChange={handleChange}
               type=""
               name="name"
-              placeholder="First & Last Name"
+              placeholder="输入你的用户名"
             />
           </div>
           <div className="space-y-2">
             <label className="text-sm font-medium tracking-wide text-gray-700">
-              Email
+              邮箱
             </label>
             <input
               className=" w-full rounded-lg border border-gray-300 px-4  py-2 text-base focus:border-green-400 focus:outline-none"
@@ -89,7 +89,7 @@ const RegisterForm: React.FC = () => {
           </div>
           <div className="space-y-2">
             <label className="mb-5 text-sm font-medium tracking-wide text-gray-700">
-              Password
+              密码
             </label>
             <input
               className="w-full content-center rounded-lg border border-gray-300 px-4  py-2 text-base focus:border-green-400 focus:outline-none"
@@ -97,7 +97,7 @@ const RegisterForm: React.FC = () => {
               onChange={handleChange}
               type="password"
               name="password"
-              placeholder="Enter your password"
+              placeholder="输入你的密码"
             />
           </div>
           <div className="pt-5">
@@ -108,21 +108,21 @@ const RegisterForm: React.FC = () => {
                 { loading: loading }
               )}
             >
-              Sign Up
+              注册
             </button>
           </div>
         </form>
         <div className="pt-5 text-center text-xs text-gray-400">
           <span>
-            Copyright © 2021-2022
+            Copyright © 2021-2023
             <a
-              href="https://uavmatrix.com"
+              href="http://www.ipv6next.cn"
               rel=""
               target="_blank"
               title="Bernt Christian Egeland"
               className="text-green hover:text-slate-900 "
             >
-              @UAVMATRIX
+              @ipv6next
             </a>
           </span>
         </div>
