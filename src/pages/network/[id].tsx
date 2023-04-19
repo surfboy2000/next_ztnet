@@ -169,13 +169,12 @@ const NetworkById = () => {
         </div>
       </div>
       <div className="w-5/5 divider mx-auto flex px-4 py-4 text-sm sm:w-4/5 sm:px-10 md:text-base">
-        Network Settings
+        网络设置
       </div>
       <div className="mx-auto w-full text-center text-xs sm:w-4/5 sm:px-10">
         <p>
-          This is used for advanced routing, and should not be changed unless
-          you absolutely have to.
-        </p>
+          这用于高级路由，除非绝对必要，否则不应更改。
+         </p>
       </div>
       <div className="w-5/5 mx-auto grid grid-cols-1 space-y-4 px-4 py-4 text-sm  sm:w-4/5 sm:px-10 md:text-base xl:flex">
         {/* Ipv4 assignment  */}
@@ -191,7 +190,7 @@ const NetworkById = () => {
         </div>
       </div>
       <div className="w-5/5 divider mx-auto flex px-4 py-4 text-sm sm:w-4/5 sm:px-10 md:text-base">
-        Network Members
+        网络成员
       </div>
       <div className="w-5/5 mx-auto w-full px-4 py-4 text-sm sm:w-4/5 sm:px-10 md:text-base">
         {members.length ? (
@@ -219,8 +218,7 @@ const NetworkById = () => {
                 />
               </svg>
               <span>
-                Join this network ID and the device will automatically be
-                displayed
+                加入此网络ID，设备会自动显示
               </span>
             </div>
           </div>
