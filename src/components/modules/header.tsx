@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { globalSiteTitle } from "~/utils/global";
 import { useSidebarStore } from "~/utils/store";
 
-const Themes = ["light", "dark", "black", "business", "system", "forest"];
+const Themes = ["白天", "夜晚", "黑色", "商业", "系统", "森林"];
 
 const Header = () => {
   const session = useSession();
