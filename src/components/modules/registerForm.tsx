@@ -58,7 +58,7 @@ const RegisterForm: React.FC = () => {
       <div className="w-100 mx-auto rounded-2xl bg-white p-12 ">
         <div className="mb-4">
           <h3 className="text-2xl font-semibold text-gray-800">注册 </h3>
-          <p className="text-gray-500">请注册用户名和邮箱</p>
+          <p className="text-gray-500">请注册你的账号</p>
         </div>
         <form className="space-y-5" onSubmit={submitHandler}>
           <div className="space-y-2">
